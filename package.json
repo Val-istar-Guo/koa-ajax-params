@@ -1,8 +1,8 @@
 {
   "name": "koa-ajax-params",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Koa Middleware used to auto parse get & post request params",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "repository": "git@github.com:Val-istar-Guo/koa-ajax-params.git",
   "author": "Val.istar.Guo <Val.istar.Guo@gmail.com>",
   "license": "MIT",
