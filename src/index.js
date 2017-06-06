@@ -62,7 +62,8 @@ export default function ({ filter = defaultFilter } = {}) {
     get = filter(get);
     post = filter(post);
 
-    app.context.params = { get, post };
+    // NOTE params is used by koa
+    app.context.param = { get, post };
     await next();
   };
 }
